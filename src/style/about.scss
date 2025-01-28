@@ -1,0 +1,133 @@
+/* Generelle stilarter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.nav {
+    background-color: #333;
+    padding: 1rem;
+    width: 100%; /* Ensures navbar spans the entire width */
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0; /* Ensures no extra space around the list */
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.nav__link:hover {
+    background-color: #555;
+}
+
+/* Hjemmeside */
+.home-header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home-section {
+    padding: 2rem;
+}
+
+/* Om Mig */
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-page header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.about-page section {
+    margin-bottom: 2rem;
+    width: 80%;
+    max-width: 800px;
+}
+
+.about-page h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-page ul {
+    list-style-type: none;
+}
+
+.about-page ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-page ul li strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: white; /* White background for footer */
+    color: #333; /* Ensuring text is visible */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds slight shadow to footer */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-page section {
+        width: 90%;
+    }
+
+    .about-page h1 {
+        font-size: 2rem;
+    }
+
+    .about-page p, .about-page h2 {
+        font-size: 1rem;
+    }
+}

@@ -1,3 +1,54 @@
+// main.scss
+
+/* Generelle stilarter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.nav__link:hover {
+    background-color: #555;
+}
+
+/* Hjemmeside */
+.home-header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home-section {
+    padding: 2rem;
+}
+
+/* Projekter */
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +64,11 @@
     max-width: 300px;
     text-align: center;
     overflow: hidden;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 
     .project-preview {
         width: 100%;
@@ -54,4 +110,12 @@
             }
         }
     }
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
