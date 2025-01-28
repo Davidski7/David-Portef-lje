@@ -30,7 +30,7 @@ export default function Projects() {
           <article className="project-card">
             <div className="project-preview">
               <img
-                src="public/Skærmbillede 2024-10-23 143754.png"
+                src="/Skærmbillede 2024-10-23 143754.png"
                 alt="Projekt 1 billede"
               />
             </div>
@@ -55,7 +55,7 @@ export default function Projects() {
           <article className="project-card">
             <div className="project-preview">
               <img
-                src="public/Skærmbillede 2025-01-27 090049.png"
+                src="/Skærmbillede 2025-01-27 090049.png"
                 alt="Projekt 2 billede"
               />
             </div>
@@ -80,7 +80,7 @@ export default function Projects() {
           <article className="project-card">
             <div className="project-preview">
               <img
-                src="public/Skærmbillede 2025-01-27 084347.png"
+                src="/Skærmbillede 2025-01-27 084347.png"
                 alt="Projekt 3 billede"
               />
             </div>
