@@ -1,6 +1,6 @@
-// main.scss
 
-/* Generelle stilarter */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +38,6 @@ body {
     background-color: #555;
 }
 
-/* Hjemmeside */
 .home-header {
     text-align: center;
     margin-top: 2rem;
@@ -48,7 +47,7 @@ body {
     padding: 2rem;
 }
 
-/* Projekter */
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -112,10 +111,14 @@ body {
     }
 }
 
-/* Footer */
+
+
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: white; 
+    color: #333; 
     text-align: center;
     padding: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
 }

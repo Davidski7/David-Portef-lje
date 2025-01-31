@@ -24,13 +24,13 @@ export default function About() {
       </header>
 
       <main>
-        {/* Introduktion */}
+    
         <section>
           <h2>Introduktion</h2>
           <p>Mit navn er David, og jeg er en 18-årig dreng, som elsker at arbejde med computer.</p>
         </section>
 
-        {/* Uddannelse */}
+        
         <section>
           <h2>Uddannelse</h2>
           <ul>
@@ -43,7 +43,7 @@ export default function About() {
           </ul>
         </section>
 
-        {/* Færdigheder */}
+     
         <section>
           <h2>Færdigheder og Erfaring</h2>
           <p>Her er mine primære færdigheder:</p>
@@ -53,7 +53,7 @@ export default function About() {
           </ul>
         </section>
 
-        {/* Kontakt */}
+        
         <section>
           <h2>Kontakt</h2>
           <p>Du er velkommen til at kontakte mig via følgende mail:</p>

@@ -26,7 +26,7 @@ export default function Projects() {
         </header>
   
         <section className="projects">
-          {/* Projekt 1 */}
+     
           <article className="project-card">
             <div className="project-preview">
               <img
@@ -51,7 +51,7 @@ export default function Projects() {
             </div>
           </article>
   
-          {/* Projekt 2 */}
+         
           <article className="project-card">
             <div className="project-preview">
               <img
@@ -76,7 +76,7 @@ export default function Projects() {
             </div>
           </article>
   
-          {/* Projekt 3 */}
+          
           <article className="project-card">
             <div className="project-preview">
               <img

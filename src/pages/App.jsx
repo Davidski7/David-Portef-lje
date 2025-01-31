@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { CiLinkedin } from "react-icons/ci";
 import "../style/main.scss";
 
 
@@ -39,7 +40,8 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        <p>© 2025 Min Portefølje. Alle rettigheder forbeholdes.</p>
+        <p>© 2025 Min Portefølje. Alle rettigheder forbeholdes.   <CiLinkedin /></p>
+       
       </footer>
     </div>
   );

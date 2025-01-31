@@ -1,4 +1,4 @@
-/* Generelle stilarter */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,14 +15,14 @@ body {
 .nav {
     background-color: #333;
     padding: 1rem;
-    width: 100%; /* Ensures navbar spans the entire width */
+    width: 100%; 
 }
 
 .nav__list {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    margin: 0; /* Ensures no extra space around the list */
+    margin: 0; 
 }
 
 .nav__item {
@@ -41,7 +41,7 @@ body {
     background-color: #555;
 }
 
-/* Hjemmeside */
+
 .home-header {
     text-align: center;
     margin-top: 2rem;
@@ -51,7 +51,7 @@ body {
     padding: 2rem;
 }
 
-/* Om Mig */
+
 .about-page {
     display: flex;
     flex-direction: column;
@@ -101,18 +101,18 @@ body {
     color: #555;
 }
 
-/* Footer */
+
 .footer {
-    background-color: white; /* White background for footer */
-    color: #333; /* Ensuring text is visible */
+    background-color: white; 
+    color: #333; 
     text-align: center;
     padding: 1rem;
     margin-top: 3rem;
     width: 100%;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds slight shadow to footer */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .nav__list {
         flex-direction: column;
