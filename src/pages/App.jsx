@@ -136,12 +136,15 @@ export default function App() {
             <li>JSONServer</li>
             <li>Render.com</li>
             <li>GitHub</li>
+            <li>Wordpress</li>
+            <li>PHP</li>
           </ul>
         </section>
 
         <section>
           <h2>Kontakt</h2>
           <p>Email: <a href="mailto:davidsimonsen2006@gmail.com">davidsimonsen2006@gmail.com</a></p>
+          <p>Telefonnummer:41208105</p>
         </section>
       </section>
 
