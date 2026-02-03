@@ -85,6 +85,12 @@ export default function App() {
               img: "/Skærmbillede 2025-03-10 085549.png",
               link: "https://praktik-hifi-corner-med-react-jackz-og.onrender.com/",
             },
+            {
+              title: "Movie-Ticket",
+              desc: "En React-app hvor man kan se nyeste og kommende film og så vælge sæder og køben en billet.",
+              img: "/Skærmbillede 2025-06-02 091358.png",
+              link: "https://movie-ticket-app-jackie.onrender.com/",
+            },
           ].map((project, index) => (
             <article key={index} className="project-card">
               <div className="project-preview">
@@ -134,10 +140,14 @@ export default function App() {
             <li>MongoDB</li>
             <li>React/Vite</li>
             <li>JSONServer</li>
+            <li>Next.js</li>
             <li>Render.com</li>
             <li>GitHub</li>
             <li>Wordpress</li>
             <li>PHP</li>
+            <li>CMS</li>
+            <li>SQL</li>
+            <li>Serverside</li>
           </ul>
         </section>
 
@@ -149,7 +159,7 @@ export default function App() {
       </section>
 
       <footer className="footer">
-        <p>© 2025 Min Portefølje. Alle rettigheder forbeholdes. <CiLinkedin /></p>
+        <p>© 2025 Min Portefølje. Alle rettigheder forbeholdes.<CiLinkedin /></p>
       </footer>
     </div>
   );
